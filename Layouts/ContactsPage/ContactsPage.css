@@ -1,0 +1,97 @@
+.contact-section {
+	padding-top: 140px;
+}
+
+.contact-section .contact-form,
+.contact-section .contact-details {
+	margin: 0 auto;
+}
+
+.contact-section .contact-details {
+	margin-bottom: 40px;
+}
+
+.contact-details {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-details .item {
+	display: flex;
+	margin-right: 60px;
+}
+
+.contact-details .item:last-child {
+	margin-right: 0;
+}
+
+.contact-details .item .icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 15px; 
+}
+
+.contact-details .item .icon img {
+	display: block;
+	width: 100%;
+}
+
+.contact-details .item .content .inner {
+	padding-left: 10px;
+	border-left: 1px solid #fff;
+
+}
+
+
+.contact-details .item .content .upper {
+	display: block;
+	font-size: 0.9rem;
+	white-space: nowrap;
+	color: var(--main-orange);
+}
+
+.contact-details .item .content .lower {
+	display: block;
+	font-size: 1.1rem;
+	white-space: nowrap;
+}
+
+@media (max-width: 990px) {
+
+	.contact-section .contact-details {
+		flex-direction: column;
+		max-width: 500px;
+	}
+
+	.contact-section .contact-form {
+		width: 500px;
+	}
+
+	.contact-section .form-field {
+		width: 100%;
+	}
+
+	.contact-section .form-field-container {
+		height: 40px;
+	}
+
+	.contact-section .form-field-container--message {
+		height: 160px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.contact-details .item {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	.contact-details .item .icon {
+		display: none;
+	}
+
+	.contact-section .contact-form {
+		width: 100%;
+	}
+}

@@ -1,0 +1,11 @@
+.single-news-page .section {
+    padding-top: 120px;
+}
+
+.single-news-page .section .container {
+    display: flex;
+}
+
+.single-news-page .single-news-wrapper {
+    margin-right: 20px;
+}
