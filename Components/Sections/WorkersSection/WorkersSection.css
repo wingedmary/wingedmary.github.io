@@ -1,0 +1,36 @@
+.workers-section {
+    padding: 40px 0;
+}
+
+.workers-showcase .workers {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.workers-showcase-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.workers-showcase-title p {
+    font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+
+    .workers-showcase .workers {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .workers-showcase .workers {
+        flex-direction: column;
+    }
+
+}

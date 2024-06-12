@@ -1,0 +1,13 @@
+.single-news-content {
+    padding: 30px;
+    border: 3px solid #928a83ad;
+    clip-path: polygon(0.3% 1%, 100% 0, 100% 101.5%, 0 99%);
+}
+
+.single-news-content .single-news-title {
+    font-size: 48px;
+}
+
+.single-news-content .single-news-description {
+    font-size: 22px;
+}

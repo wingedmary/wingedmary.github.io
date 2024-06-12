@@ -1,0 +1,79 @@
+
+
+.game-item-block {
+	box-sizing: border-box;
+	width: 390px;
+	height: 100%;
+	padding: 45px;
+	border: 3px solid #928a8300;
+    clip-path: polygon(2% 1%, 98% 0, 100% 98.5%, 0 97%);
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+.game-item-block.placeholder {
+	background: url('./../../assets/ghost-placeholder.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.game-item-block--header {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.game-item-cover {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	border-radius: 25px;
+	box-shadow: 6px 6px 3px 2px #ff00000d;
+	overflow: hidden;
+}
+
+.game-item-cover--link {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.game-item-title {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+
+.game-item-block--description {
+	margin-bottom: 20px;
+	line-height: 1.7
+}
+
+.game-item-block--links {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+	.game-item-block {
+		margin-bottom: 80px;
+	}
+
+	.game-item-block:last-child {
+		margin-bottom: 0px;
+	}
+
+	.game-item-block.placeholder {
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.game-item-block {
+		width: 100%;
+		padding: 10%;
+	}
+}

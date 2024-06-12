@@ -1,0 +1,29 @@
+.feedback-section {
+	padding: 80px 0;
+}
+
+.feedback-section .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+@media (max-width: 1080px) {
+    .feedback-section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+	.feedback-section .container {
+        padding: 0;
+    }
+
+
+}

@@ -1,0 +1,70 @@
+.title-section {
+	position: relative;
+	height: 800px;
+	background:url('./../../../assets/title-bg-orange.jpg') ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-section::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: #0000007d;
+}
+
+.title-section .container {
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.info-block .title {
+	font-size: 80px;
+}
+
+.info-block .sub-title {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+@media (max-width: 768px) {
+
+	.title-section {
+		height: 550px;
+	}
+
+	.title-section .container {
+		justify-content: center;
+		text-align: center;
+	}
+
+	.store-buttons--row {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.title-section {
+		height: 400px;
+	}
+
+	.title-section .store-buttons--row {
+		display: none;
+		flex-direction: column;
+	}
+
+	.info-block .title {
+		font-size: 50px;
+	}
+
+	.info-block .sub-title {
+		font-size: 125%;
+	}
+}

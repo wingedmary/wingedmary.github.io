@@ -1,0 +1,66 @@
+.privacy-policy-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 95%);
+    animation: .3s linear appear;
+}
+
+.privacy-policy {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1000px;
+    margin-top: 120px;
+    padding: 20px 60px;
+    border: 3px solid #928a83ad;
+    transform: translateX(-50%);
+    clip-path: polygon(0.3% 1%, 100% 0, 100% 101.5%, 0 99%);
+}
+
+.privacy-policy .title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.privacy-policy .description {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.8;
+}
+
+.privacy-policy .close {
+    display: block;
+    margin-left: auto;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    background-color: #000;
+    transition: all 1.2s cubic-bezier(0.14, 0.4, 0.09, 0.99);
+    color: #fff;
+} 
+
+
+.privacy-policy .close:hover {
+    background-color: #fff;
+    color: rgb(39, 36, 67);
+} 
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .privacy-policy .description {
+        font-size: 18px;
+    }
+}

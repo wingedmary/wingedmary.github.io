@@ -1,0 +1,38 @@
+.introduce-section {
+    padding: 40px 0;
+}
+
+.introduce-section .main-text {
+    width: 660px;
+
+}
+
+.introduce-section .main-text .title {
+    font-size: 54px;
+}
+
+@media (max-width: 768px) {
+
+    .introduce-section .main-text {
+        width: 400px;
+    }
+
+    .introduce-section .main-text .title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+
+    .introduce-section .main-text {
+        width: 100%;
+    
+    }
+
+	.introduce-section .main-text .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+}

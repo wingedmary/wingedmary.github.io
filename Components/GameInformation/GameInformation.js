@@ -1,0 +1,8 @@
+function GameInformation() {
+	return(
+		<>
+			<SwitchBox/>
+			
+		</>	
+	);
+}

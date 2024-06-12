@@ -1,0 +1,10 @@
+.roadmap-section {
+	padding-top: 120px;
+}
+
+.roadmap {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+

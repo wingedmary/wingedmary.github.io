@@ -1,0 +1,18 @@
+.we-are-section {
+    padding: 40px 0;
+}
+
+.we-are-section .title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+
+	.we-are-section .block-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

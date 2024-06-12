@@ -1,0 +1,72 @@
+.join-team-section {
+    padding: 40px 0;
+}
+
+.join-team-widged {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-team-widged .text-content {
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.join-team-widged .text-content .upper-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    
+}
+
+.join-team-widged .text-content .lower-title {
+    font-size: 30px;
+}
+
+.join-team-widged .get-form {
+    display: block;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    background-color: #000;
+    transition: all 1.2s cubic-bezier(0.14, 0.4, 0.09, 0.99);
+    color: #fff;
+}
+
+.join-team-widged .get-form:hover {
+    background-color: #fff;
+    color: rgb(39, 36, 67);
+}
+
+
+.join-team-widged .contact-form {
+    animation: formAppear .5s linear;
+}
+
+
+@keyframes formAppear {
+    0% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+@media (max-width: 768px) {
+
+	.join-team-widged {
+        flex-direction: column;
+    }
+
+    .join-team-widged .text-content {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .join-team-widged .get-form {
+        margin: 0 auto;
+    }
+
+}

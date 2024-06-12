@@ -1,0 +1,39 @@
+.store-buttons--row {
+	display: flex;
+	flex-direction: row;
+}
+
+.store-buttons--col {
+	display: flex;
+	flex-direction: column;
+}
+
+.store--button:first-child {
+	margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+	.store-button--link img {
+		width: 95px;
+	    height: 32px;
+	}
+}
+
+
+@media (max-width: 576px) {
+	.store-buttons--row {
+		flex-wrap: wrap;
+	}
+
+	.store--button:first-child {
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+
+	.store-button--link img {
+		width: 149px;
+	    height: 45px;
+	}
+
+
+}
