@@ -520,7 +520,7 @@ img {
         position: unset;
         flex-direction: column;
         align-items: center;
-		padding: 0 20px;
+		padding: 0 60px;
     }
 
     .showcase .item {
@@ -573,10 +573,6 @@ img {
         
     }
 
-    .showcase .item .title {
-        font-family: 'PT Sans Narrow';
-    }
-
     #game_wiki .cover-mobile {
         background-image: url(assets/hm-cover.jpeg);
     }
@@ -591,8 +587,12 @@ img {
 
     .showcase .item .title {
         display: block;
+		position: relative;
+    	z-index: 1;
         width: 100%;
-        font-size: 2rem;
+		padding: 10px 0;
+        font-size: 1.7rem;
+	    font-family: 'PT Sans Narrow';
         color: #111;
         background-color: #fff;
     }
