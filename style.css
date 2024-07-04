@@ -280,15 +280,15 @@ img {
 }
 
 .project-list .project.game-wiki {
-    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(assets/hm-cover.jpeg) no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(assets/hm-cover.webp) no-repeat;
 }
 
 .project-list .project.developer-studio {
-    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(assets/ds-cover.jpg) no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(assets/ds-cover.webp) no-repeat;
 }
 
 .project-list .project.online-store {
-    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(assets/os-cover.jpg) no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(assets/os-cover.webp) no-repeat;
 }
 
 .project-list .project .project--content {
@@ -574,15 +574,15 @@ img {
     }
 
     #game_wiki .cover-mobile {
-        background-image: url(assets/hm-cover.jpeg);
+        background-image: url(assets/hm-cover.webp);
     }
 
     #developer_studio .cover-mobile {
-        background-image: url(assets/ds-cover.jpg);
+        background-image: url(assets/ds-cover.webp);
     }
 
     #online_store .cover-mobile {
-        background-image: url(assets/os-cover.jpg);
+        background-image: url(assets/os-cover.webp);
     }
 
     .showcase .item .title {
