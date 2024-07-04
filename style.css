@@ -547,6 +547,7 @@ img {
         box-shadow: inset 0px 0px 16px 0px black;
         background-size: cover !important;
         background-repeat: no-repeat;
+		background-position: center;
     }
 
     .showcase .item .cover-mobile::before {
@@ -602,4 +603,7 @@ img {
     }
 }
 
-
+@media (max-width: 290px) {
+	.header-block .title-section .title {
+		overflow: scroll;
+}
