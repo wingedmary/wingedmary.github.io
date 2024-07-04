@@ -276,7 +276,7 @@ img {
     width: 100%;
     height: 100%;
     transition: .5s cubic-bezier(0.4, 0, 0.2, 1);
-    background-size: cover !Отправлен новыйц догоant;
+    background-size: cover !important;
 }
 
 .project-list .project.game-wiki {
