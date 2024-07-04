@@ -90,6 +90,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const popupClose = document.querySelectorAll('.inner-content .close');
     const showPopup = (e) => {
         popup.classList.add('show');
+        document.body.style.overflow = 'hidden';
         if (e.currentTarget.id === 'game_wiki') popupContent[0].style.display = 'block';
         if (e.currentTarget.id === 'developer_studio') popupContent[1].style.display = 'block';
         if (e.currentTarget.id === 'online_store') popupContent[2].style.display = 'block';
@@ -98,21 +99,22 @@ document.addEventListener("DOMContentLoaded", ()=>{
     popupClose.forEach(button=> {
         button.onclick = (e) => {
             popup.classList.remove('show');
-                if (e.currentTarget.parentElement.classList.contains('game-wiki')) {
-                    setTimeout(()=>{
-                        popupContent[0].style.display = 'none';
-                    }, 400)
-                }
-                if (e.currentTarget.parentElement.classList.contains('developer-studio')) {
-                    setTimeout(()=>{
-                        popupContent[1].style.display = 'none';
-                    }, 400)
-                } 
-                if (e.currentTarget.parentElement.classList.contains('online-store')) {
-                    setTimeout(()=>{
-                        popupContent[2].style.display = 'none';
-                    }, 400)
-                } 
+            document.body.style.overflow = 'auto';
+            if (e.currentTarget.parentElement.classList.contains('game-wiki')) {
+                setTimeout(()=>{
+                    popupContent[0].style.display = 'none';
+                }, 400)
+            }
+            if (e.currentTarget.parentElement.classList.contains('developer-studio')) {
+                setTimeout(()=>{
+                    popupContent[1].style.display = 'none';
+                }, 400)
+            } 
+            if (e.currentTarget.parentElement.classList.contains('online-store')) {
+                setTimeout(()=>{
+                    popupContent[2].style.display = 'none';
+                }, 400)
+            } 
             
            
         }
