@@ -297,6 +297,7 @@ img {
     width: 100%;
     margin-top: 25px;
     margin-left: 400px;
+	padding-right: 30px;
 
 }
 
@@ -406,8 +407,8 @@ img {
 }
 
 .inner-content .suptitle {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 60px;
     text-align: justify;
 }
 
@@ -434,10 +435,6 @@ img {
     .project .title {
         margin-bottom: 10px;
         font-size: 2.5rem;
-    }
-
-    .project .suptitle {
-        font-size: 1.75rem;
     }
 
     
